@@ -1,0 +1,286 @@
+.header{
+    background-color:#6697f2;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid white 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headerImg{
+    width:auto;
+    height: 45px;
+    border-radius: 50px;
+    border: solid black 2px;
+}
+
+.searchBar{
+    width:300px;
+    padding: 10px;
+    height:auto;
+    padding: 11px;
+    border-radius: 50px;
+    border: solid black 2px;
+}
+
+.login{
+    background-color: white;
+    border-radius: 50px;
+    border: solid black 2px;
+    width:auto;
+    height:auto;
+    padding: 11px;
+
+}
+.section{
+    padding-bottom: 50px;
+}
+.aside{
+    height:120px;
+    width: 150px;
+    position: fixed;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-right: solid #6697f2 4px;
+    border-bottom: solid #6697f2 4px;
+    border-top: solid #6697f2 4px ;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.menuButtons1-2{
+    padding-top: 5px;
+    border-bottom: solid #6697f2 3px;
+    border-radius: 50px;
+    color: black;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.article{
+    margin-left: solid white 100px;
+    padding-left: 170px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.articleImg{
+    display: block;
+    width:auto;
+    border-radius: 50px;
+    
+}
+.articleTitle{
+    font: bolder;
+    font-size:larger
+}
+.cards-flex{
+  display: flex;
+}
+
+.card{
+    height:300px;
+    width: 200px;
+    background-color: #6697f2;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.cardImg{
+    height:190px;
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    object-fit: cover;
+}
+
+.cardName{
+    background-color: #6697f2;
+    color:whitesmoke;
+}
+
+.price{
+    font-size: 22px;
+    background-color: #6697f2;
+    color:black;
+    border-radius: 50px;
+    
+}
+
+.buybutton{
+    background-color: red;
+    width:200px;
+    height: 55px;
+    padding-top: 17px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.footer{
+    background-color: #6697f2;
+    color: whitesmoke;
+    height: auto;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footerContent{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+}
+
+#inputNewsletter{
+    border-radius: 50px;
+    border: solid black 2px;
+}
+
+#footerButton{
+    border-radius: 50px;
+    border: solid black 2px;
+    background-color: white;
+    padding-top: 3px;
+    color: black;
+}
+
+
+
+@media screen and (max-width : 500px){
+    
+    .searchBar{
+        width: 150px;
+    }
+
+    .login{
+        width: 45px;
+        height: auto;
+    }
+
+    .desktopLogin{
+        display: none;
+    }
+
+    .mobileMenu{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        border-bottom: solid #6697f2 5px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-bottom: 10px;
+        border-radius: 50px;
+    }
+
+    .aside{
+        display:none;
+    }
+
+    .article{
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .mediaLogin{
+        width: auto; 
+        height: auto; 
+       
+    }
+    #card-1{
+        display:none;
+    }
+
+    #card-3{
+        display:none;
+    }
+
+    #card-4{
+        display:none;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 760px) {
+
+
+    .login{
+        width: 45px;
+        height: auto;
+    }
+
+    .desktopLogin{
+        display: none;
+    }
+
+    .mobileMenu{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        border-bottom: solid #6697f2 5px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-bottom: 10px;
+        border-radius: 50px;
+    }
+
+    .aside{
+        display:none;
+    }
+
+    .article{
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    #card-3{
+        display:none;
+    }
+
+    #card-4{
+        display:none;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+   
+}
+
+@media screen and (min-width: 761px) and (max-width: 861px){
+    #card-4{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 761px) {
+
+    .mobileLogin{
+        display:none;
+    }
+    .mobileMenu{
+        display: none;
+    }
+   
+}
+
